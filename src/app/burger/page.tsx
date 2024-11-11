@@ -2,6 +2,7 @@
 import { useState, useEffect, useMemo } from "react";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import Image from "next/image";
 
 const RestaurantWebsite = () => {
   const { t } = useTranslation();
@@ -121,7 +122,7 @@ const RestaurantWebsite = () => {
       <nav className="fixed w-full z-50 bg-white/80 backdrop-blur-sm">
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <h1 className="text-2xl font-light">Chef's Burger</h1>
+            <h1 className="text-2xl font-light">NuZZret</h1>
             <div className="space-x-8 text-sm">
               <a href="#menu" className="hover:text-gray-600 transition">
                 {t("MENU")}
@@ -147,12 +148,14 @@ const RestaurantWebsite = () => {
             >
               {(index === currentSlide ||
                 index === (currentSlide + 1) % slides.length) && (
-                <img
+                <Image
                   src={slide.url}
                   alt={slide.title}
                   className="w-full h-full object-cover"
                   loading={index === 0 ? "eager" : "lazy"}
-                  fetchPriority={index === 0 ? "high" : "low"}
+                  priority={index === 0 ? true : false}
+                  height={1080}
+                  width={1920}
                 />
               )}
               <div className="absolute inset-0 bg-black/30" />
@@ -198,12 +201,12 @@ const RestaurantWebsite = () => {
               whileHover={{ y: -10 }}
               className="bg-gray-50 p-6 rounded-lg"
             >
-              <img
+              <Image
                 src={burger.url}
                 alt={burger.title}
                 className="w-full h-48 object-cover rounded-lg mb-4"
                 loading="lazy"
-                fetchPriority="low"
+                priority={false}
               />
               <h3 className="text-xl font-light mb-2">{burger.title}</h3>
               <p className="text-gray-600">{burger.description}</p>
