@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import LocaleProvider from "@/components/LocaleProvider";
 
 export const metadata: Metadata = {
   title: "NuZZret Cafe & Bistro | Chef's Buffalo Burger",
@@ -10,7 +11,6 @@ export const metadata: Metadata = {
     title: "NuZZret Cafe & Bistro | Chef's Buffalo Burger",
     description: "Eşsiz lezzetli gurme burgerler",
     type: "website",
-    locale: "tr_TR",
     images: [
       {
         url: "/foodpics/1.jpg",
@@ -37,5 +37,9 @@ export default function BurgerLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return children;
+  return (
+    <LocaleProvider>
+      <body>{children}</body>
+    </LocaleProvider>
+  );
 }
