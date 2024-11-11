@@ -1,34 +1,11 @@
 "use client";
-import "../i18n";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import Head from "next/head";
-import { useTranslation } from "react-i18next";
+import "../i18n";
 
 export default function Home() {
-  const { t } = useTranslation();
-
   return (
     <>
-      <Head>
-        <title>{t("NuZZret Cafe & Bistro | Pizza & Burgers")}</title>
-        <meta
-          name="description"
-          content={t(
-            "Premium pizza and gourmet burgers at NuZZret Cafe & Bistro. Experience culinary excellence in a cozy atmosphere."
-          )}
-        />
-        <meta
-          name="keywords"
-          content="burger, pizza, cafe, bistro, restaurant, food, Bolu, bolu, Turkey, turkish, NuZZret, nuzzret, nuzzret cafe, nuzzret bistro, nuzzret cafe & bistro"
-        />
-        <meta property="og:title" content="NuZZret Cafe & Bistro" />
-        <meta
-          property="og:description"
-          content={t("Premium pizza and gourmet burgers in a cozy atmosphere")}
-        />
-      </Head>
-
       <main className="min-h-screen bg-gradient-to-b from-slate-900 to-gray-800 flex flex-col items-center justify-center">
         <motion.div
           initial={{ opacity: 0, y: -20 }}
