@@ -1,4 +1,5 @@
 "use client";
+import "../i18n";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Head from "next/head";
