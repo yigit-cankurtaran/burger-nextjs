@@ -32,6 +32,7 @@ const trTranslations = {
   "Chef's meatballs mixed with Mexican spices, broken onion rings, curly lettuce, tomato slices, red pepper, jalapeno pepper, hot sauce": "Meksika baharatlarıyla harmanlanmış Chef's köftesi, parçalanmış soğan halkaları, kıvırcık marul, dilim domates, kapya biber jalapeno biber, hot sos",
   "Butcher's baton sausage, curly lettuce, tomato slices, diced pickles, onion rings, matchstick potato chips, ranch sauce": "Kasap baton sucuk, kıvırcık marul, domates dilimleri, küp kornişon turşu, halka soğan, kibrit patates cips, ranch sos",
   "Grilled chicken thigh with barbecue flavor, curly lettuce, onion rings, tomato slices, pickles, ranch sauce": "Mangal tadında 150 gr. ızgara tavuk but, kıvırcık marul, halka soğan, domates dilimleri, kornişon turşu, ranch sos",
+  "We have options for 100, 150 and 200 gram burger patties.": "100, 150 ve 200 gramlık burger köftesi seçeneklerimiz mevcuttur.",
   // Page title and meta descriptions
   "NuZZret Cafe & Bistro | Pizza & Burgers": "NuZZret Cafe & Bistro | Pizza & Burger",
   "Premium pizza and gourmet burgers at NuZZret Cafe & Bistro. Experience culinary excellence in a cozy atmosphere.": "NuZZret Cafe & Bistro'da premium pizza ve gurme burgerler. Rahat bir atmosferde muhteşem lezzetler.",
@@ -46,7 +47,8 @@ const trTranslations = {
   "Mozzarella cheese, tomato sauce, tuna fish, corn": "Mozzarella peyniri, domates sosu, ton balığı, mısır",
   "Mozzarella cheese, tomato sauce": "Mozzarella peyniri, domates sosu",
   "Tomato sauce, mozzarella cheese, mushrooms, corn": "Domates sosu, mozzarella peyniri, mantar, mısır",
-  "Base sauce, mozzarella cheese, red pepper, green pepper, french fries, garlic mix sauce": "Ana sos, mozzarella peyniri, kırmızı biber, yeşil biber, patates kızartması, sarımsaklı karışık sos"
+  "Base sauce, mozzarella cheese, red pepper, green pepper, french fries, garlic mix sauce": "Ana sos, mozzarella peyniri, kırmızı biber, yeşil biber, patates kızartması, sarımsaklı karışık sos",
+  "We have small, medium and large pizza options": "Küçük, orta ve büyük pizza seçeneklerimiz mevcuttur.",
 };
 
 // English translations are the same as the keys
@@ -83,6 +85,7 @@ const frTranslations = {
   "Chef's meatballs mixed with Mexican spices, broken onion rings, curly lettuce, tomato slices, red pepper, jalapeno pepper, hot sauce": "Boulettes de viande du Chef mélangées avec des épices mexicaines, rondelles d'oignon cassées, laitue frisée, tranches de tomate, poivron rouge, piment jalapeno, sauce piquante",
   "Butcher's baton sausage, curly lettuce, tomato slices, diced pickles, onion rings, matchstick potato chips, ranch sauce": "Saucisse bâton du boucher, laitue frisée, tranches de tomate, cornichons en dés, rondelles d'oignon, chips de pommes de terre allumettes, sauce ranch",
   "Grilled chicken thigh with barbecue flavor, curly lettuce, onion rings, tomato slices, pickles, ranch sauce": "Cuisse de poulet grillée avec saveur barbecue, laitue frisée, rondelles d'oignon, tranches de tomate, cornichons, sauce ranch",
+  "We have options for 100, 150 and 200 gram burger patties.":"Nous proposons des steaks hachés de 100, 150 et 200 grammes.",
 
 
   "NuZZret Cafe & Bistro | Pizza & Burgers": "NuZZret Cafe & Bistro | Pizza & Burgers",
@@ -98,7 +101,8 @@ const frTranslations = {
   "Mozzarella cheese, tomato sauce, tuna fish, corn": "Fromage mozzarella, sauce tomate, thon, maïs",
   "Mozzarella cheese, tomato sauce": "Fromage mozzarella, sauce tomate",
   "Tomato sauce, mozzarella cheese, mushrooms, corn": "Sauce tomate, fromage mozzarella, champignons, maïs",
-  "Base sauce, mozzarella cheese, red pepper, green pepper, french fries, garlic mix sauce": "Sauce de base, fromage mozzarella, poivron rouge, poivron vert, frites, sauce à l'ail mixte"
+  "Base sauce, mozzarella cheese, red pepper, green pepper, french fries, garlic mix sauce": "Sauce de base, fromage mozzarella, poivron rouge, poivron vert, frites, sauce à l'ail mixte",
+  "We have small, medium and large pizza options": "Nous proposons des pizzas en taille petite, moyenne et grande"
 }
 
 const ruTranslations = {
@@ -130,6 +134,7 @@ const ruTranslations = {
   "Chef's meatballs mixed with Mexican spices, broken onion rings, curly lettuce, tomato slices, red pepper, jalapeno pepper, hot sauce": "Котлеты от шефа, смешанные с мексиканскими специями, сломанные кольца лука, кудрявая салат, ломтики помидора, красный перец, перец халапеньо, острый соус",
   "Butcher's baton sausage, curly lettuce, tomato slices, diced pickles, onion rings, matchstick potato chips, ranch sauce": "Колбаса мясника, кудрявая салат, ломтики помидора, нарезанные кубиками огурцы, кольца лука, картофельные чипсы, соус ранч",
   "Grilled chicken thigh with barbecue flavor, curly lettuce, onion rings, tomato slices, pickles, ranch sauce": "Куриное бедро на гриле с вкусом барбекю, кудрявая салат, кольца лука, ломтики помидора, огурцы, соус ранч",
+  "We have options for 100, 150 and 200 gram burger patties.": "У нас есть котлеты для бургеров весом 100, 150 и 200 грамм.",
 
 
   "NuZZret Cafe & Bistro | Pizza & Burgers": "NuZZret Cafe & Bistro | Пицца и Бургеры",
@@ -145,7 +150,8 @@ const ruTranslations = {
   "Mozzarella cheese, tomato sauce, tuna fish, corn": "Сыр моцарелла, томатный соус, тунец, кукуруза",
   "Mozzarella cheese, tomato sauce": "Сыр моцарелла, томатный соус",
   "Tomato sauce, mozzarella cheese, mushrooms, corn": "Томатный соус, сыр моцарелла, грибы, кукуруза",
-  "Base sauce, mozzarella cheese, red pepper, green pepper, french fries, garlic mix sauce": "Базовый соус, сыр моцарелла, красный перец, зеленый перец, картофель фри, чесночный микс соус"
+  "Base sauce, mozzarella cheese, red pepper, green pepper, french fries, garlic mix sauce": "Базовый соус, сыр моцарелла, красный перец, зеленый перец, картофель фри, чесночный микс соус",
+  "We have small, medium and large pizza options": "У нас есть пиццы маленького, среднего и большого размера"
 }
 
 const arTranslations = {
@@ -177,6 +183,7 @@ const arTranslations = {
   "Chef's meatballs mixed with Mexican spices, broken onion rings, curly lettuce, tomato slices, red pepper, jalapeno pepper, hot sauce": "كرات لحم الشيف الممزوجة بالتوابل المكسيكية، حلقات البصل المكسورة، خس مجعد، شرائح الطماطم، فلفل أحمر، فلفل هالبينو، صلصة حارة",
   "Butcher's baton sausage, curly lettuce, tomato slices, diced pickles, onion rings, matchstick potato chips, ranch sauce": "سجق باتون الجزار، خس مجعد، شرائح الطماطم، مخللات مقطعة، حلقات البصل، رقائق البطاطس، صلصة رانش",
   "Grilled chicken thigh with barbecue flavor, curly lettuce, onion rings, tomato slices, pickles, ranch sauce": "فخذ دجاج مشوي بنكهة الباربيكيو، خس مجعد، حلقات البصل، شرائح الطماطم، مخللات، صلصة رانش",
+  "We have options for 100, 150 and 200 gram burger patties.": "لدينا خيارات من قطع لحم البرجر بأوزان 100 و 150 و 200 جرام.",
 
   "NuZZret Cafe & Bistro | Pizza & Burgers": "NuZZret مقهى وبيسترو | بيتزا وبرجر",
   "Premium pizza and gourmet burgers at NuZZret Cafe & Bistro. Experience culinary excellence in a cozy atmosphere.": "بيتزا فاخرة وبرجر غورميه في NuZZret مقهى وبيسترو. استمتع بالتميز في الطهي في أجواء مريحة.",
@@ -191,7 +198,8 @@ const arTranslations = {
   "Mozzarella cheese, tomato sauce, tuna fish, corn": "جبنة موزاريلا، صلصة طماطم، سمك التونة، ذرة",
   "Mozzarella cheese, tomato sauce": "جبنة موزاريلا، صلصة طماطم",
   "Tomato sauce, mozzarella cheese, mushrooms, corn": "صلصة طماطم، جبنة موزاريلا، فطر، ذرة",
-  "Base sauce, mozzarella cheese, red pepper, green pepper, french fries, garlic mix sauce": "صلصة أساسية، جبنة موزاريلا، فلفل أحمر، فلفل أخضر، بطاطس مقلية، صلصة الثوم المختلطة"
+  "Base sauce, mozzarella cheese, red pepper, green pepper, french fries, garlic mix sauce": "صلصة أساسية، جبنة موزاريلا، فلفل أحمر، فلفل أخضر، بطاطس مقلية، صلصة الثوم المختلطة",
+  "We have small, medium and large pizza options": "لدينا خيارات من البيتزا بالحجم الصغير والمتوسط والكبير"
 }
 
 const resources = {

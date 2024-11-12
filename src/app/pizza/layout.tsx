@@ -13,10 +13,10 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/foodpics/1.jpg",
+        url: "https://utfs.io/f/RGBMPHafKzag7ECbJZGunzDpm1rTXLF4CSoQcRWd06ekKhGY",
         width: 1200,
         height: 630,
-        alt: "NuZZret Signature Burgers",
+        alt: "NuZZret Signature Pizzas",
       },
     ],
   },
@@ -24,7 +24,9 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "NuZZret Cafe & Bistro | Toscana Pizza",
     description: "Eşsiz lezzetli gurme pizzalar",
-    images: ["/foodpics/1.jpg"],
+    images: [
+      "https://utfs.io/f/RGBMPHafKzag7ECbJZGunzDpm1rTXLF4CSoQcRWd06ekKhGY",
+    ],
   },
   robots: {
     index: true,

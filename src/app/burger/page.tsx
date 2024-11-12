@@ -203,9 +203,12 @@ const RestaurantWebsite = () => {
       </div>
 
       <section id="menu" className="container mx-auto px-6 py-24">
-        <h2 className="text-4xl font-light mb-16 text-center">
+        <h2 className="text-4xl font-light mb-8 text-center">
           {t("Our Menu")}
         </h2>
+        <h3 className="text-xl font-light mb-8 text-center">
+          {t("We have options for 100, 150 and 200 gram burger patties.")}
+        </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           {burgers.map((burger, index) => (
             <motion.div

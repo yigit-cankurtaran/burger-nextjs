@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/foodpics/1.jpg",
+        url: "https://utfs.io/f/RGBMPHafKzagFTkzz4r93MdughzF2KovnXHIwNtk1m0aC865",
         width: 1200,
         height: 630,
         alt: "NuZZret Signature Burgers",
@@ -24,7 +24,9 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "NuZZret Cafe & Bistro | Chef's Buffalo Burger",
     description: "Eşsiz lezzetli gurme burgerler",
-    images: ["/foodpics/1.jpg"],
+    images: [
+      "https://utfs.io/f/RGBMPHafKzagFTkzz4r93MdughzF2KovnXHIwNtk1m0aC865",
+    ],
   },
   robots: {
     index: true,
