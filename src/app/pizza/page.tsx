@@ -24,57 +24,45 @@ const RestaurantWebsite = () => {
       {
         url: "/pizzapics/1.png",
         title: "Toscana Pizza",
-        description: t(
-          "2 pieces of Chef's Buffalo meatballs, 2 pieces of cheddar cheese, caramelized mushrooms, caramelized onions, french fries, special Chef's sauce"
-        ),
+        description: t("Beef salami, beef sausage, mushrooms"),
       },
       {
         url: "/pizzapics/2.png",
         title: "Quetro Pizza",
         description: t(
-          "Buffalo meatballs cooked on charcoal fire, onion rings, tomato slices, 40 gr. tenderloin, barbecue sauce"
+          "Mozzarella cheese, kaşar cheese, parmesan cheese, cheddar cheese"
         ),
       },
       {
         url: "/pizzapics/3.png",
         title: "Del Alpe Pizza",
-        description: t(
-          "150 gr. crispy chicken thigh, curly lettuce, onion rings, tomato slices, crispy pickles, ranch sauce"
-        ),
+        description: t("Mozzarella cheese, tomato sauce, sausage"),
       },
       {
         url: "/pizzapics/4.png",
         title: "BBQ Pizza",
-        description: t(
-          "Homemade meatballs, curly lettuce, onion rings, diced tomato slices, cheddar cheese, sauce, sliced pickles, ranch sauce"
-        ),
+        description: t("Chicken with barbecue sauce, red pepper, green pepper"),
       },
       {
         url: "/pizzapics/5.png",
         title: "Salome Pizza",
-        description: t(
-          "Chef's meatballs, curly lettuce, onion rings, tomato slices, pickles, ranch sauce"
-        ),
+        description: t("Mozzarella cheese, tomato sauce, tuna fish, corn"),
       },
       {
         url: "/pizzapics/6.png",
         title: "Margherita Pizza",
-        description: t(
-          "Butcher's meatballs, butcher's sausage, onion rings, two slices of tomato, sweet red pepper, barbecue sauce"
-        ),
+        description: t("Mozzarella cheese, tomato sauce"),
       },
       {
         url: "/pizzapics/7.png",
         title: "Funghi Pizza",
-        description: t(
-          "Homemade meatballs, kolot cheese, onion rings, tomato slices, curly lettuce, ranch sauce"
-        ),
+        description: t("Tomato sauce, mozzarella cheese, mushrooms, corn"),
       },
       {
         url: "/pizzapics/8.png",
         title: "Pat Pizza",
         description: t(
-          "Chef's meatballs, cheddar cheese, ranch sauce, ham, egg"
+          "Base sauce, mozzarella cheese, red pepper, green pepper, french fries, garlic mix sauce"
         ),
       },
     ],

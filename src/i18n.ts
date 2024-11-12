@@ -39,6 +39,14 @@ const trTranslations = {
   "Premium pizza and gourmet burgers in a cozy atmosphere": "Rahat bir atmosferde premium pizza ve gurme burgerler",
   // Pizza descriptions
   "Signature Pizzas": "İkonik Pizzalar",
+  "Beef salami, beef sausage, mushrooms": "Dana salam, dana sucuk, mantar",
+  "Mozzarella cheese, kaşar cheese, parmesan cheese, cheddar cheese": "Mozzarella peyniri, kaşar peyniri, parmesan peyniri, cheddar peyniri",
+  "Mozzarella cheese, tomato sauce, sausage": "Mozzarella peyniri, domates sosu, sucuk",
+  "Chicken with barbecue sauce, red pepper, green pepper": "Barbekü soslu tavuk, kırmızı biber, yeşil biber",
+  "Mozzarella cheese, tomato sauce, tuna fish, corn": "Mozzarella peyniri, domates sosu, ton balığı, mısır",
+  "Mozzarella cheese, tomato sauce": "Mozzarella peyniri, domates sosu",
+  "Tomato sauce, mozzarella cheese, mushrooms, corn": "Domates sosu, mozzarella peyniri, mantar, mısır",
+  "Base sauce, mozzarella cheese, red pepper, green pepper, french fries, garlic mix sauce": "Ana sos, mozzarella peyniri, kırmızı biber, yeşil biber, patates kızartması, sarımsaklı karışık sos"
 };
 
 // English translations are the same as the keys
@@ -83,6 +91,14 @@ const frTranslations = {
     "Premium pizza and gourmet burgers in a cozy atmosphere": "Pizzas premium et burgers gastronomiques dans une ambiance chaleureuse",
 
   "Signature Pizzas": "Pizzas Signature",
+  "Beef salami, beef sausage, mushrooms": "Salami de bœuf, saucisse de bœuf, champignons",
+  "Mozzarella cheese, kaşar cheese, parmesan cheese, cheddar cheese": "Fromage mozzarella, fromage kaşar, fromage parmesan, fromage cheddar",
+  "Mozzarella cheese, tomato sauce, sausage": "Fromage mozzarella, sauce tomate, saucisse",
+  "Chicken with barbecue sauce, red pepper, green pepper": "Poulet sauce barbecue, poivron rouge, poivron vert",
+  "Mozzarella cheese, tomato sauce, tuna fish, corn": "Fromage mozzarella, sauce tomate, thon, maïs",
+  "Mozzarella cheese, tomato sauce": "Fromage mozzarella, sauce tomate",
+  "Tomato sauce, mozzarella cheese, mushrooms, corn": "Sauce tomate, fromage mozzarella, champignons, maïs",
+  "Base sauce, mozzarella cheese, red pepper, green pepper, french fries, garlic mix sauce": "Sauce de base, fromage mozzarella, poivron rouge, poivron vert, frites, sauce à l'ail mixte"
 }
 
 const ruTranslations = {
@@ -122,6 +138,14 @@ const ruTranslations = {
     "Premium pizza and gourmet burgers in a cozy atmosphere": "Премиальная пицца и изысканные бургеры в уютной атмосфере",
 
   "Signature Pizzas": "Фирменные Пиццы",
+  "Beef salami, beef sausage, mushrooms": "Говяжья салями, говяжья колбаса, грибы",
+  "Mozzarella cheese, kaşar cheese, parmesan cheese, cheddar cheese": "Сыр моцарелла, сыр кашар, сыр пармезан, сыр чеддер",
+  "Mozzarella cheese, tomato sauce, sausage": "Сыр моцарелла, томатный соус, колбаса",
+  "Chicken with barbecue sauce, red pepper, green pepper": "Курица в соусе барбекю, красный перец, зеленый перец",
+  "Mozzarella cheese, tomato sauce, tuna fish, corn": "Сыр моцарелла, томатный соус, тунец, кукуруза",
+  "Mozzarella cheese, tomato sauce": "Сыр моцарелла, томатный соус",
+  "Tomato sauce, mozzarella cheese, mushrooms, corn": "Томатный соус, сыр моцарелла, грибы, кукуруза",
+  "Base sauce, mozzarella cheese, red pepper, green pepper, french fries, garlic mix sauce": "Базовый соус, сыр моцарелла, красный перец, зеленый перец, картофель фри, чесночный микс соус"
 }
 
 const arTranslations = {
@@ -160,6 +184,14 @@ const arTranslations = {
     "Premium pizza and gourmet burgers in a cozy atmosphere": "بيتزا فاخرة وبرجر غورميه في أجواء مريحة",
 
   "Signature Pizzas": "بيتزا مميزة",
+  "Beef salami, beef sausage, mushrooms": "سلامي لحم البقر، نقانق لحم البقر، فطر",
+  "Mozzarella cheese, kaşar cheese, parmesan cheese, cheddar cheese": "جبنة موزاريلا، جبنة قشقوان، جبنة بارميزان، جبنة شيدر",
+  "Mozzarella cheese, tomato sauce, sausage": "جبنة موزاريلا، صلصة طماطم، نقانق",
+  "Chicken with barbecue sauce, red pepper, green pepper": "دجاج مع صلصة الباربكيو، فلفل أحمر، فلفل أخضر",
+  "Mozzarella cheese, tomato sauce, tuna fish, corn": "جبنة موزاريلا، صلصة طماطم، سمك التونة، ذرة",
+  "Mozzarella cheese, tomato sauce": "جبنة موزاريلا، صلصة طماطم",
+  "Tomato sauce, mozzarella cheese, mushrooms, corn": "صلصة طماطم، جبنة موزاريلا، فطر، ذرة",
+  "Base sauce, mozzarella cheese, red pepper, green pepper, french fries, garlic mix sauce": "صلصة أساسية، جبنة موزاريلا، فلفل أحمر، فلفل أخضر، بطاطس مقلية، صلصة الثوم المختلطة"
 }
 
 const resources = {
