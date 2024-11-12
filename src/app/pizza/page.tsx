@@ -12,9 +12,18 @@ const RestaurantWebsite = () => {
   // Memoize the slides and burgers arrays to prevent recreating on each render
   const slides = useMemo(
     () => [
-      { url: "/pizzapics/1.png", title: t("Signature Pizzas") },
-      { url: "/pizzapics/2.png", title: t("Fresh Ingredients") },
-      { url: "/pizzapics/3.png", title: t("Cozy Atmosphere") },
+      {
+        url: "https://utfs.io/f/RGBMPHafKzag7ECbJZGunzDpm1rTXLF4CSoQcRWd06ekKhGY",
+        title: t("Signature Pizzas"),
+      },
+      {
+        url: "https://utfs.io/f/RGBMPHafKzagXyg0pS9vVdTJFZ46ciAEW57gj9LnNuxMq1fD",
+        title: t("Fresh Ingredients"),
+      },
+      {
+        url: "https://utfs.io/f/RGBMPHafKzagFTZDDKr93MdughzF2KovnXHIwNtk1m0aC865",
+        title: t("Cozy Atmosphere"),
+      },
     ],
     [t]
   );
@@ -22,44 +31,44 @@ const RestaurantWebsite = () => {
   const pizzas = useMemo(
     () => [
       {
-        url: "/pizzapics/1.png",
+        url: "https://utfs.io/f/RGBMPHafKzag7ECbJZGunzDpm1rTXLF4CSoQcRWd06ekKhGY",
         title: "Toscana Pizza",
         description: t("Beef salami, beef sausage, mushrooms"),
       },
       {
-        url: "/pizzapics/2.png",
+        url: "https://utfs.io/f/RGBMPHafKzagXyg0pS9vVdTJFZ46ciAEW57gj9LnNuxMq1fD",
         title: "Quetro Pizza",
         description: t(
           "Mozzarella cheese, kaşar cheese, parmesan cheese, cheddar cheese"
         ),
       },
       {
-        url: "/pizzapics/3.png",
+        url: "https://utfs.io/f/RGBMPHafKzagFTZDDKr93MdughzF2KovnXHIwNtk1m0aC865",
         title: "Del Alpe Pizza",
         description: t("Mozzarella cheese, tomato sauce, sausage"),
       },
       {
-        url: "/pizzapics/4.png",
+        url: "https://utfs.io/f/RGBMPHafKzagi90yfahvzRAH8deju3W04UCqrTxNoIYgsJBp",
         title: "BBQ Pizza",
         description: t("Chicken with barbecue sauce, red pepper, green pepper"),
       },
       {
-        url: "/pizzapics/5.png",
+        url: "https://utfs.io/f/RGBMPHafKzag91BTxXFlFp0Tx7OH2gZdcqt48amRY5WLDQns",
         title: "Salome Pizza",
         description: t("Mozzarella cheese, tomato sauce, tuna fish, corn"),
       },
       {
-        url: "/pizzapics/6.png",
+        url: "https://utfs.io/f/RGBMPHafKzagRbUUSbafKzagNHk021q6JnS9YcwTm8edAsrt",
         title: "Margherita Pizza",
         description: t("Mozzarella cheese, tomato sauce"),
       },
       {
-        url: "/pizzapics/7.png",
+        url: "https://utfs.io/f/RGBMPHafKzagTo9FG5i9KZnMgAOy0RJPiruHDvm1pQb6ezsG",
         title: "Funghi Pizza",
         description: t("Tomato sauce, mozzarella cheese, mushrooms, corn"),
       },
       {
-        url: "/pizzapics/8.png",
+        url: "https://utfs.io/f/RGBMPHafKzagr5EMrG0Xv5n7DcMzkHFNr6hlAsK0YqmVoByf",
         title: "Pat Pizza",
         description: t(
           "Base sauce, mozzarella cheese, red pepper, green pepper, french fries, garlic mix sauce"
