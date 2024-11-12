@@ -85,10 +85,10 @@ const frTranslations = {
   "Grilled chicken thigh with barbecue flavor, curly lettuce, onion rings, tomato slices, pickles, ranch sauce": "Cuisse de poulet grillée avec saveur barbecue, laitue frisée, rondelles d'oignon, tranches de tomate, cornichons, sauce ranch",
 
 
-    "NuZZret Cafe & Bistro | Pizza & Burgers": "NuZZret Cafe & Bistro | Pizza & Burgers",
-    "Premium pizza and gourmet burgers at NuZZret Cafe & Bistro. Experience culinary excellence in a cozy atmosphere.": "Pizzas premium et burgers gastronomiques chez NuZZret Cafe & Bistro. Découvrez l'excellence culinaire dans une ambiance chaleureuse.",
-    "pizza, burger, cafe, bistro, restaurant, food, Bolu, bolu": "pizza, burger, café, bistro, restaurant, cuisine, Bolu, bolu",
-    "Premium pizza and gourmet burgers in a cozy atmosphere": "Pizzas premium et burgers gastronomiques dans une ambiance chaleureuse",
+  "NuZZret Cafe & Bistro | Pizza & Burgers": "NuZZret Cafe & Bistro | Pizza & Burgers",
+  "Premium pizza and gourmet burgers at NuZZret Cafe & Bistro. Experience culinary excellence in a cozy atmosphere.": "Pizzas premium et burgers gastronomiques chez NuZZret Cafe & Bistro. Découvrez l'excellence culinaire dans une ambiance chaleureuse.",
+  "pizza, burger, cafe, bistro, restaurant, food, Bolu, bolu": "pizza, burger, café, bistro, restaurant, cuisine, Bolu, bolu",
+  "Premium pizza and gourmet burgers in a cozy atmosphere": "Pizzas premium et burgers gastronomiques dans une ambiance chaleureuse",
 
   "Signature Pizzas": "Pizzas Signature",
   "Beef salami, beef sausage, mushrooms": "Salami de bœuf, saucisse de bœuf, champignons",
@@ -132,10 +132,10 @@ const ruTranslations = {
   "Grilled chicken thigh with barbecue flavor, curly lettuce, onion rings, tomato slices, pickles, ranch sauce": "Куриное бедро на гриле с вкусом барбекю, кудрявая салат, кольца лука, ломтики помидора, огурцы, соус ранч",
 
 
-    "NuZZret Cafe & Bistro | Pizza & Burgers": "NuZZret Cafe & Bistro | Пицца и Бургеры",
-    "Premium pizza and gourmet burgers at NuZZret Cafe & Bistro. Experience culinary excellence in a cozy atmosphere.": "Премиальная пицца и изысканные бургеры в NuZZret Cafe & Bistro. Испытайте кулинарное совершенство в уютной атмосфере.",
-    "pizza, burger, cafe, bistro, restaurant, food, Bolu, bolu": "пицца, бургер, кафе, бистро, ресторан, еда, болу",
-    "Premium pizza and gourmet burgers in a cozy atmosphere": "Премиальная пицца и изысканные бургеры в уютной атмосфере",
+  "NuZZret Cafe & Bistro | Pizza & Burgers": "NuZZret Cafe & Bistro | Пицца и Бургеры",
+  "Premium pizza and gourmet burgers at NuZZret Cafe & Bistro. Experience culinary excellence in a cozy atmosphere.": "Премиальная пицца и изысканные бургеры в NuZZret Cafe & Bistro. Испытайте кулинарное совершенство в уютной атмосфере.",
+  "pizza, burger, cafe, bistro, restaurant, food, Bolu, bolu": "пицца, бургер, кафе, бистро, ресторан, еда, болу",
+  "Premium pizza and gourmet burgers in a cozy atmosphere": "Премиальная пицца и изысканные бургеры в уютной атмосфере",
 
   "Signature Pizzas": "Фирменные Пиццы",
   "Beef salami, beef sausage, mushrooms": "Говяжья салями, говяжья колбаса, грибы",
@@ -178,10 +178,10 @@ const arTranslations = {
   "Butcher's baton sausage, curly lettuce, tomato slices, diced pickles, onion rings, matchstick potato chips, ranch sauce": "سجق باتون الجزار، خس مجعد، شرائح الطماطم، مخللات مقطعة، حلقات البصل، رقائق البطاطس، صلصة رانش",
   "Grilled chicken thigh with barbecue flavor, curly lettuce, onion rings, tomato slices, pickles, ranch sauce": "فخذ دجاج مشوي بنكهة الباربيكيو، خس مجعد، حلقات البصل، شرائح الطماطم، مخللات، صلصة رانش",
 
-    "NuZZret Cafe & Bistro | Pizza & Burgers": "NuZZret مقهى وبيسترو | بيتزا وبرجر",
-    "Premium pizza and gourmet burgers at NuZZret Cafe & Bistro. Experience culinary excellence in a cozy atmosphere.": "بيتزا فاخرة وبرجر غورميه في NuZZret مقهى وبيسترو. استمتع بالتميز في الطهي في أجواء مريحة.",
-    "pizza, burger, cafe, bistro, restaurant, food, Bolu": "بيتزا, برجر, مقهى, بيسترو, مطعم, طعام, بولو",
-    "Premium pizza and gourmet burgers in a cozy atmosphere": "بيتزا فاخرة وبرجر غورميه في أجواء مريحة",
+  "NuZZret Cafe & Bistro | Pizza & Burgers": "NuZZret مقهى وبيسترو | بيتزا وبرجر",
+  "Premium pizza and gourmet burgers at NuZZret Cafe & Bistro. Experience culinary excellence in a cozy atmosphere.": "بيتزا فاخرة وبرجر غورميه في NuZZret مقهى وبيسترو. استمتع بالتميز في الطهي في أجواء مريحة.",
+  "pizza, burger, cafe, bistro, restaurant, food, Bolu": "بيتزا, برجر, مقهى, بيسترو, مطعم, طعام, بولو",
+  "Premium pizza and gourmet burgers in a cozy atmosphere": "بيتزا فاخرة وبرجر غورميه في أجواء مريحة",
 
   "Signature Pizzas": "بيتزا مميزة",
   "Beef salami, beef sausage, mushrooms": "سلامي لحم البقر، نقانق لحم البقر، فطر",
@@ -224,7 +224,7 @@ i18n
     },
     // Optimize language detection
     detection: {
-      order: ['localStorage', 'navigator'],
+      order: ['localStorage'], // removed navigator for edge requests
       caches: ['localStorage'],
       lookupLocalStorage: 'i18nextLng',
       cookieMinutes: 365 * 24 * 60, // caching for 1 year
