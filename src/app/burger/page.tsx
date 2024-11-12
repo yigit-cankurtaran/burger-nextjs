@@ -3,6 +3,7 @@ import { useState, useEffect, useMemo } from "react";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import Image from "next/image";
+import Link from "next/link";
 
 const RestaurantWebsite = () => {
   const { t } = useTranslation();
@@ -122,9 +123,9 @@ const RestaurantWebsite = () => {
       <nav className="fixed w-full z-50 bg-white/80 backdrop-blur-sm">
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <h1 className="text-2xl font-light text-green-500">
+            <Link href="/" className="text-2xl font-light text-green-500">
               Nu<span className="text-red-500">ZZ</span>ret
-            </h1>
+            </Link>
             <div className="space-x-8 text-sm">
               <a href="#menu" className="hover:text-gray-600 transition">
                 {t("MENU")}
@@ -226,7 +227,7 @@ const RestaurantWebsite = () => {
         <div className="text-center max-w-2xl mx-auto">
           <p className="text-lg font-light mb-4">
             {t(
-              "We are a burger restaurant dedicated to providing the best experience in the city."
+              "We are a cafe & bistro dedicated to providing the best experience in the city."
             )}
           </p>
           <p className="text-lg font-light">

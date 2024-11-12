@@ -10,11 +10,11 @@ const trTranslations = {
   "MENU": "MENÜ",
   "ABOUT": "HAKKINDA",
   "CONTACT": "İLETİŞİM",
-  "Experience culinary excellence": "Müthiş burgerlerimizi deneyimleyin",
+  "Experience culinary excellence": "Müthiş yemeklerimizi deneyimleyin",
   "Our Menu": "Menümüz",
   "Signature Dish": "İmza Yemek",
   "About Us": "Hakkımızda",
-  "We are a burger restaurant dedicated to providing the best experience in the city.": "Şehirdeki en iyi deneyimi sunmaya adanmış bir burger restoranıyız.",
+  "We are a cafe & bistro dedicated to providing the best experience in the city.": "Şehirdeki en iyi deneyimi sunmaya adanmış bir cafe ve bistroyuz.",
   "Our chefs use only the freshest ingredients to create mouth-watering dishes that will leave you coming back for more.": "Şeflerimiz, sizi tekrar tekrar geri getirecek ağız sulandıran yemekler yaratmak için sadece en taze malzemeleri kullanır.",
   "Contact Us": "Bize Ulaşın",
   "Have any questions or feedback? We'd love to hear from you!": "Herhangi bir sorunuz veya geri bildiriminiz mi var? Sizden haber almak isteriz!",
@@ -36,7 +36,9 @@ const trTranslations = {
   "NuZZret Cafe & Bistro | Pizza & Burgers": "NuZZret Cafe & Bistro | Pizza & Burger",
   "Premium pizza and gourmet burgers at NuZZret Cafe & Bistro. Experience culinary excellence in a cozy atmosphere.": "NuZZret Cafe & Bistro'da premium pizza ve gurme burgerler. Rahat bir atmosferde muhteşem lezzetler.",
   "pizza, burger, cafe, bistro, restaurant, food, Bolu, bolu": "pizza, burger, kafe, bistro, restoran, yemek, Bolu, bolu",
-  "Premium pizza and gourmet burgers in a cozy atmosphere": "Rahat bir atmosferde premium pizza ve gurme burgerler"
+  "Premium pizza and gourmet burgers in a cozy atmosphere": "Rahat bir atmosferde premium pizza ve gurme burgerler",
+  // Pizza descriptions
+  "Signature Pizzas": "İkonik Pizzalar",
 };
 
 // English translations are the same as the keys
@@ -56,7 +58,7 @@ const frTranslations = {
   "Signature Dish": "Plat Signature",
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit.": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   "About Us": "À Propos de Nous",
-  "We are a burger restaurant dedicated to providing the best experience in the city.": "Nous sommes un restaurant de burgers dédié à offrir la meilleure expérience en ville.",
+  "We are a cafe & bistro dedicated to providing the best experience in the city.": "Nous sommes un café et un bistro dédiés à offrir la meilleure expérience en ville.",
   "Our chefs use only the freshest ingredients to create mouth-watering dishes that will leave you coming back for more.": "Nos chefs n'utilisent que les ingrédients les plus frais pour créer des plats délicieux qui vous feront revenir encore et encore.",
   "Contact Us": "Contactez-Nous",
   "Have any questions or feedback? We'd love to hear from you!": "Vous avez des questions ou des commentaires ? Nous serions ravis de vous entendre !",
@@ -78,7 +80,9 @@ const frTranslations = {
     "NuZZret Cafe & Bistro | Pizza & Burgers": "NuZZret Cafe & Bistro | Pizza & Burgers",
     "Premium pizza and gourmet burgers at NuZZret Cafe & Bistro. Experience culinary excellence in a cozy atmosphere.": "Pizzas premium et burgers gastronomiques chez NuZZret Cafe & Bistro. Découvrez l'excellence culinaire dans une ambiance chaleureuse.",
     "pizza, burger, cafe, bistro, restaurant, food, Bolu, bolu": "pizza, burger, café, bistro, restaurant, cuisine, Bolu, bolu",
-    "Premium pizza and gourmet burgers in a cozy atmosphere": "Pizzas premium et burgers gastronomiques dans une ambiance chaleureuse"
+    "Premium pizza and gourmet burgers in a cozy atmosphere": "Pizzas premium et burgers gastronomiques dans une ambiance chaleureuse",
+
+  "Signature Pizzas": "Pizzas Signature",
 }
 
 const ruTranslations = {
@@ -93,7 +97,7 @@ const ruTranslations = {
   "Signature Dish": "Фирменное Блюдо",
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit.": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   "About Us": "О Нас",
-  "We are a burger restaurant dedicated to providing the best experience in the city.": "Мы - ресторан бургеров, стремящийся предоставить лучший опыт в городе.",
+  "We are a cafe & bistro dedicated to providing the best experience in the city.": "Мы - кафе и бистро, посвященные предоставлению лучшего опыта в городе.",
   "Our chefs use only the freshest ingredients to create mouth-watering dishes that will leave you coming back for more.": "Наши повара используют только самые свежие ингредиенты для создания аппетитных блюд, которые заставят вас возвращаться снова и снова.",
   "Contact Us": "Свяжитесь с Нами",
   "Have any questions or feedback? We'd love to hear from you!": "Есть вопросы или отзывы? Мы будем рады услышать вас!",
@@ -115,7 +119,9 @@ const ruTranslations = {
     "NuZZret Cafe & Bistro | Pizza & Burgers": "NuZZret Cafe & Bistro | Пицца и Бургеры",
     "Premium pizza and gourmet burgers at NuZZret Cafe & Bistro. Experience culinary excellence in a cozy atmosphere.": "Премиальная пицца и изысканные бургеры в NuZZret Cafe & Bistro. Испытайте кулинарное совершенство в уютной атмосфере.",
     "pizza, burger, cafe, bistro, restaurant, food, Bolu, bolu": "пицца, бургер, кафе, бистро, ресторан, еда, болу",
-    "Premium pizza and gourmet burgers in a cozy atmosphere": "Премиальная пицца и изысканные бургеры в уютной атмосфере"
+    "Premium pizza and gourmet burgers in a cozy atmosphere": "Премиальная пицца и изысканные бургеры в уютной атмосфере",
+
+  "Signature Pizzas": "Фирменные Пиццы",
 }
 
 const arTranslations = {
@@ -130,7 +136,7 @@ const arTranslations = {
   "Signature Dish": "طبق مميز",
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit.": "لوريم إيبسوم دولار سيت أميت، كونسيكتيتور أديبيسشينغ إيليت.",
   "About Us": "معلومات عنا",
-  "We are a burger restaurant dedicated to providing the best experience in the city.": "نحن مطعم برجر مكرس لتقديم أفضل تجربة في المدينة.",
+  "We are a cafe & bistro dedicated to providing the best experience in the city.": "نحن مقهى وبيسترو مكرسان لتقديم أفضل تجربة في المدينة.",
   "Our chefs use only the freshest ingredients to create mouth-watering dishes that will leave you coming back for more.": "يستخدم طهاتنا فقط المكونات الطازجة لخلق أطباق لذيذة ستجعلك تعود للمزيد.",
   "Contact Us": "اتصل بنا",
   "Have any questions or feedback? We'd love to hear from you!": "هل لديك أي أسئلة أو ملاحظات؟ نود أن نسمع منك!",
@@ -151,7 +157,9 @@ const arTranslations = {
     "NuZZret Cafe & Bistro | Pizza & Burgers": "NuZZret مقهى وبيسترو | بيتزا وبرجر",
     "Premium pizza and gourmet burgers at NuZZret Cafe & Bistro. Experience culinary excellence in a cozy atmosphere.": "بيتزا فاخرة وبرجر غورميه في NuZZret مقهى وبيسترو. استمتع بالتميز في الطهي في أجواء مريحة.",
     "pizza, burger, cafe, bistro, restaurant, food, Bolu": "بيتزا, برجر, مقهى, بيسترو, مطعم, طعام, بولو",
-    "Premium pizza and gourmet burgers in a cozy atmosphere": "بيتزا فاخرة وبرجر غورميه في أجواء مريحة"
+    "Premium pizza and gourmet burgers in a cozy atmosphere": "بيتزا فاخرة وبرجر غورميه في أجواء مريحة",
+
+  "Signature Pizzas": "بيتزا مميزة",
 }
 
 const resources = {

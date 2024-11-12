@@ -4,7 +4,7 @@ import LocaleProvider from "@/components/LocaleProvider";
 export const metadata: Metadata = {
   title: "NuZZret Cafe & Bistro | Chef's Buffalo Burger",
   description:
-    "Birinci sınıf malzemelerle hazırlanan ikonik burgerlerimizi deneyimleyin. Klasik hamburgerden eşsiz Türk füzyon yemeklerine kadar.",
+    "Birinci sınıf malzemelerle hazırlanan ikonik burgerlerimizi deneyimleyin. Klasik hamburgerden eşsiz gurme burgerlere kadar.",
   keywords:
     "burger, hamburger, Bolu, bolu, gurme burger, gurme hamburger, pizza, gurme pizza, cafe, bistro, türkiye burger, türk burger, türkiye pizza, türk pizza",
   openGraph: {
