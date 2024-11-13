@@ -85,7 +85,7 @@ const frTranslations = {
   "Chef's meatballs mixed with Mexican spices, broken onion rings, curly lettuce, tomato slices, red pepper, jalapeno pepper, hot sauce": "Boulettes de viande du Chef mélangées avec des épices mexicaines, rondelles d'oignon cassées, laitue frisée, tranches de tomate, poivron rouge, piment jalapeno, sauce piquante",
   "Butcher's baton sausage, curly lettuce, tomato slices, diced pickles, onion rings, matchstick potato chips, ranch sauce": "Saucisse bâton du boucher, laitue frisée, tranches de tomate, cornichons en dés, rondelles d'oignon, chips de pommes de terre allumettes, sauce ranch",
   "Grilled chicken thigh with barbecue flavor, curly lettuce, onion rings, tomato slices, pickles, ranch sauce": "Cuisse de poulet grillée avec saveur barbecue, laitue frisée, rondelles d'oignon, tranches de tomate, cornichons, sauce ranch",
-  "We have options for 100, 150 and 200 gram burger patties.":"Nous proposons des steaks hachés de 100, 150 et 200 grammes.",
+  "We have options for 100, 150 and 200 gram burger patties.": "Nous proposons des steaks hachés de 100, 150 et 200 grammes.",
 
 
   "NuZZret Cafe & Bistro | Pizza & Burgers": "NuZZret Cafe & Bistro | Pizza & Burgers",
@@ -232,7 +232,7 @@ i18n
     },
     // Optimize language detection
     detection: {
-      order: ['localStorage'], // removed navigator for edge requests
+      order: ['localStorage', 'navigator', 'cookie'],
       caches: ['localStorage'],
       lookupLocalStorage: 'i18nextLng',
       cookieMinutes: 365 * 24 * 60, // caching for 1 year
