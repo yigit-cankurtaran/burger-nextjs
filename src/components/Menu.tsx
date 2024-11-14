@@ -1,7 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { useTranslation } from "react-i18next";
 
 interface MenuItem {
   url: string;
@@ -16,8 +15,6 @@ interface MenuProps {
 }
 
 const Menu = ({ items, title, subtitle }: MenuProps) => {
-  const { t } = useTranslation();
-
   return (
     <section id="menu" className="container mx-auto px-6 py-24">
       <h2 className="text-4xl font-light mb-8 text-center">{title}</h2>
