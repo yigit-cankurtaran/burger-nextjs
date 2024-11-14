@@ -33,6 +33,9 @@ export default function PizzaClient() {
 
   const pizzas = useMemo(
     () => [
+      // keeping these here because we need the translations on the client
+      // TODO: after moving the translations to the server
+      // handle them there and move the data to its own file
       {
         url: "https://utfs.io/f/RGBMPHafKzag7ECbJZGunzDpm1rTXLF4CSoQcRWd06ekKhGY",
         title: "Toscana Pizza",

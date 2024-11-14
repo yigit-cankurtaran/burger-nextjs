@@ -44,6 +44,9 @@ export default function BurgerClient() {
 
   const burgers = useMemo(
     () => [
+      // keeping these here because we need the translations on the client
+      // TODO: after moving the translations to the server
+      // handle them there and move the data to its own file
       {
         url: "https://utfs.io/f/RGBMPHafKzagFTkzz4r93MdughzF2KovnXHIwNtk1m0aC865",
         title: t("Chef's Burger"),
