@@ -1,4 +1,6 @@
 "use client";
+// we use this to get the language from the browser
+// and set it in the i18n instance
 import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
 
